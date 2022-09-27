@@ -49,7 +49,7 @@ tasks:
   - action: download_github
     dest: ./tmp/files/npwd
     ref: master
-    url: https://github.com/NewWheelRP/npwd
+    src: https://github.com/NewWheelRP/npwd
   - action: move_path
     dest: ./resources/[standalone]/npwd/config.json
     src: ./tmp/files/npwd/config.json
@@ -64,7 +64,7 @@ tasks:
   - action: download_github
     dest: ./tmp/files/ox_inventory
     ref: main
-    url: https://github.com/NewWheelRP/ox_inventory
+    src: https://github.com/NewWheelRP/ox_inventory
   - action: move_path
     dest: ./resources/[standalone]/ox_inventory/modules/mysql/server.lua
     src: ./tmp/files/ox_inventory/modules/mysql/server.lua
