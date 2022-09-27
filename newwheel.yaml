@@ -68,6 +68,7 @@ tasks:
   - action: move_path
     dest: ./resources/[standalone]/ox_inventory/modules/mysql/server.lua
     src: ./tmp/files/ox_inventory/modules/mysql/server.lua
+    overwrite: true
   - action: move_path
     dest: ./resources/[standalone]/ox_inventory/modules/bridge/nw
     src: ./tmp/files/ox_inventory/modules/bridge/nw
