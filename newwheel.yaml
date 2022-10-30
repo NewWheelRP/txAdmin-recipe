@@ -42,7 +42,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/files/npwd.zip
-    url: https://github.com/project-error/npwd/releases/download/1.6.1/npwd.zip
+    url: https://github.com/project-error/npwd/releases/download/1.7.0/npwd.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/npwd.zip
@@ -57,7 +57,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/files/ox_inventory.zip
-    url: https://github.com/overextended/ox_inventory/releases/download/v2.12.3/ox_inventory.zip
+    url: https://github.com/overextended/ox_inventory/releases/download/v2.15.1/ox_inventory.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/ox_inventory.zip
@@ -75,7 +75,7 @@ tasks:
 
   - action: download_file
     path: ./tmp/files/ox_lib.zip
-    url: https://github.com/overextended/ox_lib/releases/download/v2.11.1/ox_lib.zip
+    url: https://github.com/overextended/ox_lib/releases/download/v2.15.0/ox_lib.zip
   - action: unzip
     dest: ./resources/[standalone]
     src: ./tmp/files/ox_lib.zip
